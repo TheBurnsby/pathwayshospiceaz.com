@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    font-size: 16px;
+    transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.row {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: 1920px;
+    margin: auto;
+}
+
+section {
+    background-color: #ffffff;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px 2px #cccccc;
+}
