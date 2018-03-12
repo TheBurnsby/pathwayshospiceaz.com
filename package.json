@@ -1,0 +1,24 @@
+{
+  "name": "pathwayshospiceaz.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "muleify serve -w src dist",
+    "b": "muleify pack src docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBurnsby/pathwayshospiceaz.com.git"
+  },
+  "author": "Arc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBurnsby/pathwayshospiceaz.com/issues"
+  },
+  "homepage": "https://github.com/TheBurnsby/pathwayshospiceaz.com#readme"
+}

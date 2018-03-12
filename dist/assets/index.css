@@ -1,31 +1,53 @@
 * {
-    margin: 0;
-    padding: 0;
-    color: #222222;
-    font-size: 16px;
-    transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: $black;
+  font-size: 16px;
+  transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  font-family: 'Open Sans', sans-serif;
 }
-
+h1 {
+  color: #497290;
+  font-size: 3.3rem;
+}
+h2 {
+  color: #497290;
+  font-size: 2.3rem;
+  font-weight: 100;
+  margin-bottom: 1.3rem;
+}
+h3 {
+  font-size: 1.7rem;
+  font-weight: 100;
+  color: #222222;
+}
+p {
+  color: #222222;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
+}
 body {
-    background-color: #eee;
+  background-color: #eee;
 }
-
-.row {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    max-width: 1920px;
-    margin: auto;
-}
-
 section {
-    background-color: #ffffff;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
-    padding: 1rem;
-    box-shadow: 1px 1px 5px 2px #cccccc;
+  max-width: 1080px;
+}
+.row {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  max-width: 1920px;
+  margin: auto;
+}
+.paper {
+  box-shadow: 1px 1px 5px 2px #cccccc;
+  background-color: #ffffff;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 1rem;
 }
